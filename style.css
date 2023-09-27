@@ -5,14 +5,13 @@
 body {
 	font-family: 'open Sans', sans-serif;
 	color: white;
-	background-color: #1c1f22;
+	background-color: rgb(11, 11, 11);
 	font-size: 16px;
 }
 
 header {
-
 	font-family: 'Space Grotesk', sans-serif;
-
+	
 }
 
 header p {
@@ -24,7 +23,6 @@ header p {
 
 a {
 	text-decoration: none;
-	color: white;
 }	
 
 a:visited {
@@ -32,37 +30,46 @@ a:visited {
 }
 
 a:hover {
-
 	color: rgb(115, 0, 255);
-	font-style: bold;
+}
 
+
+.button:hover {
+
+	background-color: rgba(115, 0, 255, 0.512);
+	color:white;
+	font-style: bold;
 }
 
 .button {
 
-	background-color: rgb(18, 18, 18);
+	background-color: rgb(115, 0, 255);
 }
+
+main {
+
+	background-color:white;
+	color: #191c1e;
+}
+
 
 h1, h2, h3 {
 
 	font-family: 'Space Grotesk', sans-serif;
-
 }
 
 h1 {
-
 
 	font-weight: 700;
 	font-size:160px;
 	line-height: 80%;
 	letter-spacing: auto;
-
 }
 
 h2 {
 
 	font-size: 24px;
-	font-weight:500;
+	font-weight:600;
 }
 
 
@@ -70,7 +77,6 @@ h3 {
 
 	font-size: 16px;
 	font-weight: 500;
-
 }
 
 p {
@@ -78,4 +84,6 @@ p {
 	font-weight:300;
 	line-height:120%;
 }
+
+
 
