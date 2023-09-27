@@ -1,9 +1,80 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
 body {
+	font-family: 'open Sans', sans-serif;
 	color: white;
-	background-color: black;
-	font-size: 16pt;
+	background-color: #1c1f22;
+	font-size: 16px;
+}
 
+header {
+
+	font-family: 'Space Grotesk', sans-serif;
+
+}
+
+header p {
+
+	color: white;
+	font-size:20px;
+	font-weight:300;
+}
+
+a {
+	text-decoration: none;
+}	
+
+a:visited {
+	color:white;
+}
+
+a:hover {
+
+	color: rgb(115, 0, 255);
+	font-style: bold;
+
+}
+
+.button {
+
+	background-color: rgb(18, 18, 18);
+}
+
+h1, h2, h3 {
+
+	font-family: 'Space Grotesk', sans-serif;
+
+}
+
+h1 {
+
+
+	font-weight: 700;
+	font-size:160px;
+	line-height: 80%;
+	letter-spacing: auto;
+
+}
+
+h2 {
+
+	font-size: 24px;
+	font-weight:500;
+}
+
+
+h3 {
+
+	font-size: 16px;
+	font-weight: 500;
+
+}
+
+p {
+
+	font-weight:300;
+	line-height:120%;
 }
 
